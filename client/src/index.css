@@ -42,7 +42,7 @@ h1, h2, h3, p { margin-top: 0; }
 h1, h2 { font-family: 'DM Serif Display', serif; font-weight: 400; letter-spacing: -.045em; }
 h1 { max-width: 760px; margin-bottom: 28px; font-size: clamp(64px, 9vw, 128px); line-height: .85; }
 h1 em, h2 em { color: var(--primary); font-style: italic; }
-.hero-lede { max-width: 500px; margin-bottom: 34px; color: #536360; font-size: 18px; line-height: 1.6; }
+.hero-role { margin: -13px 0 22px; color: var(--primary); font: 500 12px 'IBM Plex Mono', monospace; letter-spacing: .1em; text-transform: uppercase; } .hero-lede { max-width: 500px; margin-bottom: 34px; color: #536360; font-size: 18px; line-height: 1.6; }
 .hero-actions { display: flex; align-items: center; gap: 26px; }
 .button { display: inline-flex; align-items: center; gap: 12px; padding: 15px 20px; font: 600 11px 'IBM Plex Mono', monospace; letter-spacing: .08em; text-transform: uppercase; }
 .button-primary { background: var(--primary); color: var(--primary-foreground); }

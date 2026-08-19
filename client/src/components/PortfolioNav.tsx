@@ -5,10 +5,10 @@ import { useState } from "react";
 import { profile } from "@/lib/portfolio-data";
 
 const links = [
-  { href: "#sobre", label: "Sobre" },
+  { href: "#sobre", label: "Sobre mim" },
   { href: "#projetos", label: "Projetos" },
-  { href: "#stack", label: "Stack" },
-  { href: "#evolucao", label: "Evolução" },
+  { href: "#stack", label: "Tecnologias" },
+  { href: "#evolucao", label: "Trajetória" },
 ];
 
 export default function PortfolioNav() {
