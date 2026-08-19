@@ -28,7 +28,7 @@ export default function Home() {
           <div className="page-frame hero-grid">
             <div className="hero-copy">
               <p className="overline"><span className="live-dot" /> Aberto a estágio em desenvolvimento</p>
-              <h1 id="hero-title">Arthur<br /><em>constrói</em><br />sistemas úteis.</h1>
+              <h1 id="hero-title">Eu<br /><em>construo</em><br />sistemas úteis.</h1>
               <p className="hero-lede">{profile.intro}</p>
               <div className="hero-actions">
                 <a className="button button-primary" href="#projetos">Ver projetos <ArrowDown size={16} aria-hidden="true" /></a>
@@ -54,9 +54,9 @@ export default function Home() {
           <div className="about-layout">
             <div className="about-title"><p className="kicker">Uma trajetória em construção</p><h2>Do processo<br /><em>ao produto.</em></h2></div>
             <div className="about-copy">
-              <p className="lead-copy">Estudante de Análise e Desenvolvimento de Sistemas no IFSP, Arthur está construindo uma base prática em backend, automação de processos e aplicações internas orientadas a dados.</p>
+              <p className="lead-copy">Estou cursando Análise e Desenvolvimento de Sistemas no IFSP e construindo uma base prática em backend, automação de processos e aplicações internas orientadas a dados.</p>
               <p>{profile.impact}</p>
-              <p>Os projetos públicos mostram uma evolução que vai de rotinas automatizadas a sistemas com autenticação, persistência relacional, regras de negócio e auditoria. O código é a prova; a página é apenas o índice.</p>
+              <p>Meus projetos públicos mostram uma evolução que vai de rotinas automatizadas a sistemas com autenticação, persistência relacional, regras de negócio e auditoria. Meu código é a prova; esta página é apenas o índice.</p>
               <a className="text-link" href={profile.linkedin} target="_blank" rel="noreferrer">Perfil no LinkedIn <ArrowUpRight size={15} aria-hidden="true" /></a>
             </div>
           </div>
@@ -86,10 +86,10 @@ export default function Home() {
         </section>
 
         <section id="contato" className="section section-contact page-frame">
-          <SectionMarker number="06" label="Contato" /><div className="contact-layout"><div><p className="kicker">Próxima conversa</p><h2>Vamos falar sobre<br /><em>o que vem depois.</em></h2></div><div className="contact-copy"><p>Arthur está aberto a oportunidades de estágio e início de carreira em desenvolvimento backend, automação de processos e aplicações internas.</p><button className="email-copy" type="button" onClick={copyEmail}>{copied ? <Check size={16} /> : <Copy size={16} />} {copied ? "E-mail copiado" : profile.email}</button><div className="contact-links"><a href={profile.linkedin} target="_blank" rel="noreferrer"><Linkedin size={16} /> LinkedIn</a><a href={profile.resume} target="_blank" rel="noreferrer"><ArrowUpRight size={16} /> Currículo</a><a href={`mailto:${profile.email}`}><Mail size={16} /> E-mail</a></div></div></div>
+          <SectionMarker number="06" label="Contato" /><div className="contact-layout"><div><p className="kicker">Próxima conversa</p><h2>Vamos falar sobre<br /><em>o que vem depois.</em></h2></div><div className="contact-copy"><p>Estou aberto a oportunidades de estágio e início de carreira em desenvolvimento backend, automação de processos e aplicações internas.</p><button className="email-copy" type="button" onClick={copyEmail}>{copied ? <Check size={16} /> : <Copy size={16} />} {copied ? "E-mail copiado" : profile.email}</button><div className="contact-links"><a href={profile.linkedin} target="_blank" rel="noreferrer"><Linkedin size={16} /> LinkedIn</a><a href={profile.resume} target="_blank" rel="noreferrer"><ArrowUpRight size={16} /> Currículo</a><a href={`mailto:${profile.email}`}><Mail size={16} /> E-mail</a></div></div></div>
         </section>
       </main>
-      <footer className="site-footer page-frame"><span>Arthur Sacramento · Desenvolvedor de Software em formação</span><span>Construído com clareza e código.</span></footer>
+      <footer className="site-footer page-frame"><span>Meu portfólio · Desenvolvimento de software em formação</span><span>Construído com clareza e código.</span></footer>
     </div>
   );
 }

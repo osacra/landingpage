@@ -24,7 +24,7 @@ export const profile = {
   intro:
     "Construo soluções que conectam processos de negócio, bancos relacionais e software mantível — com foco em backend, automação e aplicações internas orientadas a dados.",
   impact:
-    "Na DHL Supply Chain, uma automação baseada em Python e validação de dados reduziu aproximadamente 56 horas de trabalho manual por mês em uma operação de liberação de motoristas.",
+    "Na DHL Supply Chain, desenvolvi uma automação baseada em Python e validação de dados que reduziu aproximadamente 56 horas de trabalho manual por mês em uma operação de liberação de motoristas.",
 };
 
 export const projects: Project[] = [
