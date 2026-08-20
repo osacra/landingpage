@@ -12,6 +12,8 @@ export type Project = {
   accent: string;
 };
 
+export const resumeUrl = "https://docs.google.com/document/d/1iNtAHETcBdT-KcEqbb1QNEu_c4-ae7FoRV1iRF-JgdM/edit?usp=sharing";
+
 export const profile = {
   name: "Arthur Sacramento",
   shortName: "Arthur",
@@ -19,7 +21,7 @@ export const profile = {
   degree: "Análise e Desenvolvimento de Sistemas · IFSP",
   github: "https://github.com/osacra",
   linkedin: "https://www.linkedin.com/in/sacrarthur/",
-  resume: "https://docs.google.com/document/d/1iNtAHETcBdT-KcEqbb1QNEu_c4-ae7FoRV1iRF-JgdM/edit?usp=sharing",
+  resume: resumeUrl,
   email: "oarthursacra@gmail.com",
   intro:
     "Construo soluções que conectam processos de negócio, bancos relacionais e software mantível — com foco em backend, automação e aplicações internas orientadas a dados.",
