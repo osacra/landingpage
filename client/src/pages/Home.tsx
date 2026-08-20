@@ -77,7 +77,7 @@ export default function Home() {
         </section>
 
         <section id="evolucao" className="section section-evolution">
-          <div className="page-frame"><SectionMarker number="05" label="Trajetória" /><div className="section-heading-row"><div><p className="kicker">Minha trajetória</p><h2>De automações a<br /><em>sistemas completos.</em></h2></div><p className="section-aside">Uma leitura dos projetos públicos: da compreensão dos fundamentos até a construção de sistemas que lidam com operação, dados e acesso.</p></div><img className="evolution-image" src="/manus-storage/arthur-process-diagram_e7e3ce7f.png" alt="Diagrama editorial abstrato representando a evolução de processos para sistemas" /><div className="evolution-track">{evolution.map((step, index) => <div className="evolution-step" key={step.index}><div className="evolution-node"><span>{step.index}</span>{index < evolution.length - 1 && <i />}</div><h3>{step.title}</h3><p>{step.note}</p></div>)}</div></div>
+          <div className="page-frame"><SectionMarker number="05" label="Trajetória" /><div className="section-heading-row"><div><p className="kicker">Minha trajetória</p><h2>De automações a<br /><em>sistemas completos.</em></h2></div><p className="section-aside">Uma leitura dos projetos públicos: da compreensão dos fundamentos até a construção de sistemas que lidam com operação, dados e acesso.</p></div><div className="evolution-track">{evolution.map((step, index) => <div className="evolution-step" key={step.index}><div className="evolution-node"><span>{step.index}</span>{index < evolution.length - 1 && <i />}</div><h3>{step.title}</h3><p>{step.note}</p></div>)}</div></div>
         </section>
 
         <section className="github-cta page-frame" aria-labelledby="github-title">
