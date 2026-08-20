@@ -36,14 +36,8 @@ export default function Home() {
                 <a className="text-link" href={profile.github} target="_blank" rel="noreferrer">GitHub <ArrowUpRight size={15} aria-hidden="true" /></a>
               </div>
             </div>
-            <div className="hero-evidence"><img className="hero-photo" src="/images/arthur-sacramento.png" alt="Arthur Sacramento" /><img className="hero-collage" src="/manus-storage/arthur-evidence-collage_9ae61dc8.png" alt="Composição editorial de caderno técnico e elementos de engenharia" />
+            <div className="hero-evidence"><img className="hero-photo" src="/images/arthur-sacramento.png" alt="Arthur Sacramento" />
               <div className="hero-index"><span>01 / 06</span><span>São Paulo, BR</span></div>
-              <div className="hero-note">
-                <span className="note-label">Sobre meu trabalho</span>
-                <p>“O início da carreira pode ser medido pelo que já foi colocado em operação.”</p>
-                <span className="note-rule" />
-                <small>backend · automação · dados</small>
-              </div>
               <div className="hero-stamp"><span>AS</span><small>software<br />em formação</small></div>
             </div>
           </div>
